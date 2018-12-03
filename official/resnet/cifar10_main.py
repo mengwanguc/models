@@ -237,9 +237,9 @@ def define_cifar_flags():
   flags.adopt_module_key_flags(resnet_run_loop)
   flags_core.set_defaults(data_dir='/tmp/cifar10_data',
                           model_dir='/tmp/cifar10_model',
-                          resnet_size='56',
-                          train_epochs=182,
-                          epochs_between_evals=10,
+                          resnet_size='18',
+                          train_epochs=10,
+                          epochs_between_evals=1,
                           batch_size=128,
                           image_bytes_as_serving_input=False)
 
