@@ -112,7 +112,7 @@ def process_record_dataset(dataset,
             datasets_num_private_threads,
             display_name='input_pipeline_thread_pool'))
 
-  print(dataset[0])
+#  print(dataset[0])
   return dataset
 
 
