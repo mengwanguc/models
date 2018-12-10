@@ -225,7 +225,7 @@ def override_flags_and_set_envars_for_gpu_thread_pool(flags_obj):
 ################################################################################
 def learning_rate_with_decay(
     batch_size, batch_denom, num_images, boundary_epochs, decay_rates,
-    base_lr=0.01, warmup=False):
+    base_lr=0.001, warmup=False):
   """Get a learning rate that decays step-wise as training progresses.
 
   Args:
